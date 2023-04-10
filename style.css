@@ -1,0 +1,124 @@
+body {
+    background-image: url("abstract-christmas.jpg");
+    position: relative;
+
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+
+/* .input {
+    margin-left: 300px;
+} */
+
+.btn {
+    margin-left: 42%;
+    margin-top: 10px;
+}
+
+.display {
+    width: 500px;
+    margin-left: 30%;
+} 
+
+.img {
+    position: absolute;
+    top: 65px;
+    left: 46%;
+}
+
+/* #firstLove {
+    animation: firstLove 25s 0s infinite linear;
+    position: absolute;
+    top: 1px;
+    left: 500px;
+}
+
+@keyframes firstLove {
+    0% {left: 0px; top: 0px;}
+    100% {left: 2500px; top: 1350px;}
+}
+
+#secondLove {
+    animation: secondLove 25s 0s infinite linear;
+    position: absolute;
+    top: 1px;
+    left: 500px;
+}
+
+@keyframes secondLove {
+    0% {left: 0px; top: 0px;}
+    100% {right: 2500px; top: 1350px;}
+}
+
+#thirdLove {
+    animation: thirdLove 25s 0s infinite linear;
+    position: absolute;
+    top: 1px;
+    right: 500px;
+}
+
+@keyframes thirdLove {
+    0% {left: 0px; top: 0px;}
+    100% {right: 2500px; top: 1350px;}
+} */
+
+/* #fourthLove {
+    animation: fourthLove 25s 0s infinite linear;
+    position: absolute;
+    top: 1px;
+    right: 500px;
+}
+
+@keyframes fourthLove {
+    0% {left: 0px; top: 0px;}
+    100% {right: 2500px; top: 1350px;}
+} */
+
+@media (max-width: 500px) {
+    body {
+        overflow: hidden;
+    }
+    
+    #yourName{
+        /* margin-left: -300px; */
+        width: 250px;
+        /* height: 40px; */
+    }
+
+    #crushName{
+        /* margin-left: 0px; */
+        width: 250px;
+        /* height: 40px; */
+    }
+
+    /* #yourNamet {
+        margin-left: -295px;
+        margin-bottom: 100px;
+    }
+
+    #yourCrusht {
+        margin-left: 5px;
+        margin-bottom: 100px;
+    } */
+
+    /* #yourName,#crushName {
+        padding-top: 40px;
+    } */
+
+    .btn {
+        margin-left: 45px;
+    }
+
+    .display {
+        width: 200px;
+        margin-left: 50px;
+    } 
+    /* .well {
+        width: 200px;
+    } */
+
+    .img {
+        display: none;
+    }
+}
+
